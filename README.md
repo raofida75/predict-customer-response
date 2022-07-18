@@ -35,7 +35,7 @@ The data is contained in three files:
 
 Goal of this project was to determine the following questions:
 
-1. What features primarily influence customer use of the offer?
+Q1. What features primarily influence customer use of the offer?
 
 The feature importance assigned by three models indicates that the term of the membership is the most critical element influencing how customers respond to the offer. The top three variables for all three models were nearly identical for each offer type: 
 - `tenure of the member`
@@ -43,7 +43,7 @@ The feature importance assigned by three models indicates that the term of the m
 - `age`. 
 However, the order of income and age changed based on the type of offer. 
 
-2. Given the data available, including the offer attributes and user demographics, indicate whether a user would accept an offer?
+Q2. Given the data available, including the offer attributes and user demographics, indicate whether a user would accept an offer?
 
 I've decided to use a single model with offer type as a categorical variable to predict whether or not the consumer will respond to the offer, with 'offer success' as a target variable. This model achieved an `AUC score of around 78 percent`. 
 
